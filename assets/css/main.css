@@ -1,0 +1,92 @@
+/* Font files */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&display=swap');
+
+/* CSS from here */
+body {  
+    margin: 0;
+    background: #fff;
+    font-family: 'Archivo', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+/*Image Layer 1*/
+.layer1 {
+    margin: none;
+    position: absolute;
+    text-align: center;
+    z-index: 0;
+}
+
+/*Image Layer 2*/
+.layer2 {
+    margin: none;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    mix-blend-mode: multiply;
+}
+
+.navigation {
+    padding-top: 1px;
+}
+.navigation ul li {
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 50px;
+    margin-right: 05px;
+  }
+  
+  .navigation ul li a{
+    text-decoration: none;
+    color: #7A3DDF;
+    font-size: 35px;
+    padding-top: 120px;
+  }
+  
+
+  
+  .navigation ul li:nth-child(3){
+    margin-left: 55vw;
+  }
+
+h2 {
+    font-size: 45px;
+    font-weight: 500;
+    text-align: left;
+    color: #1D57D9;
+}
+
+p {
+    font-size: 45px;
+    font-weight: 400;
+    text-align: left;
+    color: #1D57D9;
+}
+
+p a {
+    color: #E336B2;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: #00ff2f;
+}
+
+h4 {
+    text-align: left;
+    font-size: 40px;
+    color: #1D57D9;
+}
+.navigation ul li:nth-child(3){
+    margin-left: 55vw;
+  }

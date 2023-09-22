@@ -1,0 +1,85 @@
+/* Font files */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&display=swap');
+
+ul {
+  list-style-type: none;
+}
+body {
+  margin: 0;
+  background-color: #E6C54780;
+  ;
+  font-family: 'Archivo', sans-serif;
+}
+
+#div1 {
+  position: fixed;
+  z-index: 9;
+  background-color: none;
+  border: none;
+  mix-blend-mode: multiply;
+  padding-top: 100px;
+}
+
+#div2 {
+  position: fixed;
+  z-index: 9;
+  background-color: none;
+  border: none;
+  mix-blend-mode: multiply;
+  padding-left: 120px;
+}
+
+#div3 {
+  position: fixed;
+  z-index: 9;
+  background-color: none;
+  border: none;
+  mix-blend-mode: multiply;
+  padding-top: 200px;
+}
+
+.navigation ul li {
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 50px;
+  margin-right: 05px;
+}
+
+.navigation ul li a{
+  text-decoration: none;
+  color: #7A3DDF;
+  font-size: 35px;
+}
+
+.container {
+  margin-left: 25%;
+}
+
+.navigation ul li:nth-child(3){
+  margin-left: 55vw;
+}
+
+.hero_images {
+  background-color: black;
+}
+
+img {
+  width: 550px;
+  height: auto;
+}
+
+.hero_images {
+ 
+}
+
+.pages_nav ul li a{
+  text-decoration: none;
+  font-size: 35px;
+  color: #7A3DDF;
+}
+
+.pages_nav {
+  position: absolute;
+  bottom: 100px;
+  right: 135px;
+}
